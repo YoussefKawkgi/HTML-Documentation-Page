@@ -1,0 +1,83 @@
+*HTML*
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<main id="main-doc">
+<nav id="navbar">
+<header>RE 4</header>
+<a class="nav-link" href="#Overview">Overview</a>
+<a class="nav-link" href="#Development">Development</a>
+<a class="nav-link" href="#Release">Release</a>
+<a class="nav-link" href="#Reception">Reception</a>
+<a class="nav-link" href="#Legacy">Legacy</a>
+</nav>
+<img src="https://i.redd.it/3fwsn9jhcy341.jpg" alt="Resident Evil 4 cover" id="image">
+<section class="main-section" id="Overview">
+<header>Overview</header>
+<p>Resident Evil 4 is a survival horror game by Capcom, originally released for the GameCube in 2005. Players control the special agent Leon S. Kennedy on a mission to rescue the US president's daughter, Ashley Graham, who has been kidnapped by a religious cult in rural Spain. Leon fights hordes of enemies infected by a mind-controlling parasite and reunites with the spy Ada Wong. In a departure from the fixed camera angles and slower gameplay of previous Resident Evil games, Resident Evil 4 features a dynamic camera system and action-oriented gameplay.</p>
+<code></code>
+<li></li>
+<p>Resident Evil 4 garnered acclaim for its story, gameplay, graphics, voice acting, and characters, and is cited as one of the best video games of all time, winning multiple Game of the Year awards in 2005. It was ported to numerous formats, and became a cross-platform hit, selling 12.3 million units by December 2022. It influenced the evolution of the survival horror and third-person genres, popularizing the "over-the-shoulder" third-person view used in games such as Gears of War, Dead Space, and The Last of Us.</p>
+</section>
+
+<section class="main-section" id="Development">
+<header>Development</header>
+<p>In 1999, producer Shinji Mikami said a Resident Evil sequel was in development for PlayStation 2. Resident Evil 4 underwent a lengthy development, during which at least four versions of the game were discarded. The first version was directed by Hideki Kamiya Around the turn of the millennium,[28] Resident Evil 2 writer Noboru Sugimura created a story for the game, based on Kamiya's idea to make a "cool" and "stylish" action game. The story was based on unraveling the mystery surrounding the body of the protagonist, Tony, an invincible man with skills and an intellect exceeding that of normal people, with his superhuman abilities explained with biotechnology. As Kamiya felt the playable character did not look brave and heroic enough in battles from a fixed angle, he decided to drop the prerendered backgrounds from previous installments and use a dynamic camera system. The team spent 11 days in the United Kingdom and Spain, photographing objects such as Gothic statues, bricks, and stone pavements for use in textures.</p>
+<code></code>
+<li></li>
+<p>Though the developers tried to make the "coolness" theme fit into the world of Resident Evil, Mikami felt it strayed too far from the series' survival horror roots and gradually convinced the staff to make an independent game. This became a new Capcom franchise, Devil May Cry, released for the PlayStation 2 in August 2001.</p>
+</section>
+
+<section class="main-section" id="Release">
+<header>Release</header>
+<p>The original version for the GameCube featured two different collector's editions. The first was available as a pre-order that included the game, the Prologue art book, and a T-shirt. GameStop offered another limited edition that was packaged in a tin box with the art book, a cel of Leon, and a soundtrack CD. Australia received an exclusive collector's edition that came with the game and a bonus disc with interviews and creator's footage.</p>
+<code></code>
+<li></li>
+<p>Resident Evil 4 was ported to the PlayStation 2 after Capcom stated that it did not fall under the exclusivity deal with Nintendo. It was released in North America on October 25, 2005. The largest addition is "Separate Ways", a new scenario for Ada written by Haruo Murata. According to producer Masachika Kawata, the Separate Ways campaign was something thought up by the PS2 porting team and was added after getting approval from Shinji Mikami.</p>
+</section>
+
+<section class="main-section" id="Reception">
+<header>Reception</header>
+<p>The GameCube and PlayStation 2 versions of Resident Evil 4 have a score of 96/100 on Metacritic, indicating "universal acclaim". These versions are ranked in the top two on Metacritic's list of the Best Video Games for 2005. In addition to the gameplay, the characters and story received positive commentary, leading to the finished product being deemed by most as one of the best video games ever made.</p>
+<code></code>
+<li></li>
+<p>Resident Evil 4 was named Game of the Year by multiple publications, including Edge, Electronic Gaming Monthly, GameTrailers, Game Informer, GamePro, GameRevolution, Chicago Tribune, and Pittsburgh Post-Gazette. The game was also included in lists of the best games of 2005 by various media outlets, including Play, Associated Press, Universal Press Syndicate, The Mercury News, Maxim, Sound & Vision, The News Tribune, Hartford Courant, and The Oregonian.</p>
+</section>
+
+<section class="main-section" id="Legacy">
+<header>Legacy</header>
+<p>Resident Evil 4 redefined the survival horror genre by emphasizing reflexes and precision aiming, thus broadening the gameplay of the series with elements from the wider action game genre. However, this also led some reviewers to suggest that the Resident Evil series had abandoned the survival horror genre, by demolishing the genre conventions that it had established.</p>
+<code></code>
+<li></li>
+<p>Other major survival horror series followed suit, by developing their combat systems to feature more action, such as Silent Hill: Homecoming and the 2008 version of Alone in the Dark. These changes represent an overall trend among console games shifting towards visceral action gameplay.</p>
+</section>
+</main>
+
+</html> 
+
+*CSS*
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: left;
+}
+#navbar{
+  position:absolute;
+  left: 0;
+}
